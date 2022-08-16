@@ -46,7 +46,7 @@ if (isset($_POST) && !empty($_POST)){
                             <a class="nav-link" href="../pausasActivas.html">Pausas Activas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../ejercicios.html">Ejercicios</a>
+                            <a class="nav-link" href="../ejercicios.html">Gimnasia Laboral</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link"  href="add.php">Contáctenos</a>
