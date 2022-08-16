@@ -24,9 +24,40 @@ if (isset($_POST) && !empty($_POST)){
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Crear usuario</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/inicio.css">
   </head>
   <body>
-    <?php include('../menu.php')?>
+  <header> 
+        <nav class="navbar navbar-expand-lg bg-ligth bg-gradient sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="../Imagenes/LogoNav.jpg" alt="LogoNavbar"
+                        class="img-fluid" alt="logo" width="100" height="70">FisioLaboral</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pausasActivas.html">Pausas Activas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../ejercicios.html">Ejercicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"  href="add.php">Contáctenos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header> 
+
+
     <div class="container">
         <?php
         if (isset($error)){
@@ -84,5 +115,18 @@ if (isset($_POST) && !empty($_POST)){
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     </div>
+    <footer class="py-3 text-sm-center text-md-center text-lg-center text-xl-center">
+    <div class="card text-center">
+        <div class="footer1 card-header bg-secondary bg-gradient">
+          Un agradecimiento a
+        </div>
+        <div class="card-body bg-secondary bg-gradient">
+          <a href="https://www.ibero.edu.co/" target="_blank"><img src="../Imagenes/PiePagina.png" alt="Logo Ibero" class="img-fluid" alt="logo" width="200" height="100"></a>
+        </div>
+        <div class="footer2 card-footer bg-secondary">
+          Todos los derechos reservados 2022
+        </div>
+      </div>
+   </footer>
   </body>
 </html>

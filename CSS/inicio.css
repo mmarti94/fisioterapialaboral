@@ -1,0 +1,46 @@
+body {background-image: url(../Imagenes/FondoPantalla.jpg);
+width: 100%;
+margin-top: 20px;}
+.container-fluid{font-family:'Franklin Gothic Medium';
+font-size: 30px;
+font-style: oblique;}
+.contenedorBanner{font-family: 'Lucida Sans Regular';
+font-style: oblique;}
+.contenedor2{font-family: Helvetica;
+font-style: oblique;
+font-size: 20px;}
+.contenedor4{font-family: 'Lucida Sans Regular';
+font-style: oblique;
+font-size: 30px;}
+.contenedor5{font-family: Helvetica;
+font-style: oblique;
+font-size: 20px;}
+.contenedor6{font-family: 'Lucida Sans Regular';
+font-style: oblique;
+font-size: 30px;}
+.contenedor7{font-family: Helvetica;
+font-style: oblique;
+font-size: 20px;}
+.contenedor8{font-family: 'Lucida Sans Regular';
+font-style: oblique;
+font-size: 30px;}
+.contenedor9{font-family: 'Lucida Sans Regular';
+font-style: oblique;
+font-size: 30px;}
+.contenedor10{font-family: Helvetica;
+font-style: oblique;
+font-size: 20px;}
+.contenedor11{font-family: 'Lucida Sans Regular';
+font-style: oblique;
+font-size: 30px;}
+.contenedor12{font-family: Helvetica;
+font-style: oblique;
+font-size: 20px;}
+.footer1{font-family: 'Trebuchet MS';
+font-style: italic;
+font-size: 20px;
+color: aliceblue;}
+.footer2{font-family: 'Franklin Gothic Medium';
+font-style: oblique;
+font-size: 15px;
+color: aliceblue;}
