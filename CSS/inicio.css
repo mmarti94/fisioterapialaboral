@@ -1,6 +1,7 @@
 body {background-image: url(../Imagenes/FondoPantalla.jpg);
 width: 100%;
-margin-top: 20px;}
+margin-top: 20px;
+margin: auto;}
 .container-fluid{font-family:'Franklin Gothic Medium';
 font-size: 30px;
 font-style: oblique;}
